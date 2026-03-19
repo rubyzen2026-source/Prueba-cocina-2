@@ -1,15 +1,15 @@
 /*Aquí llamamos la tipografía desde Google Fonts. Luego veremos cómo hacer esto con cualquier tipografía en otros repositorios*/
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Permanent+Marker&display=swap');
 
 body {
-  background-color: #caedfc;
+  background-color: #4fcdec;
   margin: 0;
   padding: 0;
 }
 
 h1 {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 300;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
   margin: 0;
   position: absolute;
   font-size: 50px;
@@ -19,12 +19,12 @@ h1 {
 }
 
 a {
-  color: blue;
+  color: rgb(255, 49, 49);
   text-decoration: none;
 }
 
 a:hover {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 #contenido {
@@ -38,9 +38,11 @@ a:hover {
 
 .texto {
   margin: 0;
-  font-family: 'Work Sans', sans-serif;
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
   font-size: 20px;
   text-align: center;
+  color: #2fc04e;  /* Esto cambiará el color del texto a un rojo coral */
 }
 
 .contenedor-imagen {
